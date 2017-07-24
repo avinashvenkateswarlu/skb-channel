@@ -1,0 +1,1 @@
+import java.util.*;public class k {     static public void main(String args[]){System.out.println(display("callit")+display("callit"));}static String display(String a)        {            return a.toUpperCase();        }}

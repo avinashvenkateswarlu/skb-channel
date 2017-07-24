@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intent-mapping>
+    <intent name="first-intent">
+        <patterns>
+            <pattern>is <entity name="week days"/> a holiday</pattern>
+            <pattern><entity name="week days"/> a holiday</pattern>
+        </patterns>
+        
+        <process channel="">
+            <!--
+                * Available processing tags.
+                * These can be in any order.
+                * The order of processing is the same order of presence.
+            -->
+            <imports>
+                
+            </imports>
+            
+            <code>
+                <!-- some java code we can place here -->
+            </code>
+            
+            <service-request>
+                <url></url>
+                <headers></headers>
+                <parameters></parameters>
+                <method></method>
+            </service-request>
+            
+            <function>
+                    <!--some custom function for reusability-->
+            </function>
+            
+            <out>
+                
+            </out>
+            
+            <!-- 
+                    * We can use already exisisting code also file also.
+                    * Must implement botprocessor interface
+            -->
+            <file url="" language=" java" />
+            
+        </process>
+    </intent>
+</intent-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities>
+    <entity name="leave types">
+        <type>rh</type>
+        <type>ch</type>
+
+        <type>my leave</type>
+        <type>Annual Leave</type>
+        <type>Restricted Holiday</type>
+        <type>company Holiday</type>
+    </entity>
+    
+    <entity name="week days">
+        <type>sun</type>
+        <type>mon</type>
+        <type>tue</type>
+        <type>wed</type>
+        <type>thus</type>
+        <type>fri</type>
+        <type>sat</type>
+        
+        <type>sunday</type>
+        <type>monday</type>
+        <type>tueday</type>
+        <type>wedday</type>
+        <type>thusday</type>
+        <type>friday</type>
+        <type>satday</type>
+    </entity>
+</entities>
